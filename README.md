@@ -9,6 +9,7 @@ This project develops and evaluates deep hedging policies under a calibrated rou
 | `notebooks/01_mathematical_foundations.ipynb` | Rough-volatility, pricing, and CVaR foundations. |
 | `notebooks/02_synthetic_playground.ipynb` | Simulation-based hedging experiments. |
 | `notebooks/03_real_data.ipynb` | Market-data calibration and real-window evaluation. |
+| `notebooks/README.md` | Notebook map and the detailed training diagnostics gallery. |
 | `rough_hedge/` | Reusable simulation, risk, hedging, and training code. |
 | `scripts/exp_nb03_hedging.py` | Immutable training, replay, and visualization CLI. |
 | `scripts/t4_recipes.py` | Recipe-study trainer with per-epoch diagnostics. |
@@ -30,29 +31,22 @@ python scripts/exp_nb03_hedging.py figures --run-id RUN_ID
 
 The study compares five training recipes, three learned hedge architectures, three seeds, and two training profiles. Every panel below has its compact CSV source beside the PNG.
 
-### Performance and optimization
+### Mathematical foundations (Notebook 01)
+
+<table><tr>
+<td width="25%"><img src="figures/fig-1.0.png" alt="Simulated variance mean"><br><sub><b>Figure 1.0.</b> Simulated variance mean with ±4 SE band; <code>fig-1.0.csv</code>.</sub></td>
+<td width="25%"><img src="figures/fig-1.2.png" alt="Roughness recovery"><br><sub><b>Figure 1.2.</b> Roughness recovery by series type; <code>fig-1.2.csv</code>.</sub></td>
+<td width="25%"><img src="figures/fig-1.6.png" alt="Rough Bergomi paths"><br><sub><b>Figure 1.6.</b> Rough-Bergomi variance and spot paths; <code>fig-1.6.csv</code>.</sub></td>
+<td width="25%"><img src="figures/fig-1.7.png" alt="Volterra power law"><br><sub><b>Figure 1.7.</b> Volterra variance power-law check; <code>fig-1.7.csv</code>.</sub></td>
+</tr></table>
+
+### Immediate synthetic and real-data results (Notebooks 02--03)
 
 <table><tr>
 <td width="25%"><img src="figures/fig-5.1.png" alt="CVaR leaderboard"><br><sub><b>Figure 5.1.</b> CVaR95 leaderboard; <code>fig-5.1.csv</code>.</sub></td>
 <td width="25%"><img src="figures/fig-5.2.png" alt="paired CVaR"><br><sub><b>Figure 5.2.</b> Paired CVaR gaps to delta; <code>fig-5.2.csv</code>.</sub></td>
 <td width="25%"><img src="figures/fig-5.3.png" alt="learning curves"><br><sub><b>Figure 5.3.</b> Validation learning curves; <code>fig-5.3.csv</code>.</sub></td>
 <td width="25%"><img src="figures/fig-5.4.png" alt="compute frontier"><br><sub><b>Figure 5.4.</b> Compute--risk frontier; <code>fig-5.4.csv</code>.</sub></td>
-</tr></table>
-
-<table><tr>
-<td width="25%"><img src="figures/fig-5.5.png" alt="gradient noise"><br><sub><b>Figure 5.5.</b> Gradient noise and batch size; <code>fig-5.5.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.6.png" alt="CVaR threshold"><br><sub><b>Figure 5.6.</b> CVaR threshold and VaR95; <code>fig-5.6.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.7.png" alt="policy distance"><br><sub><b>Figure 5.7.</b> Policy distance from delta; <code>fig-5.7.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.8.png" alt="loss survival"><br><sub><b>Figure 5.8.</b> Snapshot loss-survival curves; <code>fig-5.8.csv</code>.</sub></td>
-</tr></table>
-
-### Distribution, scaling, and diagnostics
-
-<table><tr>
-<td width="25%"><img src="figures/fig-5.9.png" alt="P and L quantiles"><br><sub><b>Figure 5.9.</b> P&amp;L quantiles during training; <code>fig-5.9.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.10.png" alt="profile comparison"><br><sub><b>Figure 5.10.</b> Small/large profile comparison; <code>fig-5.10.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.11.png" alt="variance attribution"><br><sub><b>Figure 5.11.</b> Recipe/model/seed variance shares; <code>fig-5.11.csv</code>.</sub></td>
-<td width="25%"><img src="figures/fig-5.12.png" alt="L4 timeline"><br><sub><b>Figure 5.12.</b> L4 utilization timeline; <code>fig-5.12.csv</code>.</sub></td>
 </tr></table>
 
 <table><tr>
