@@ -1,0 +1,9 @@
+profile,component,variance_percent,n_seeds
+small,recipe,71.00722949671892,3
+small,arm,2.237524103616927,3
+small,recipe x arm,4.727171692381911,3
+small,seed residual,22.02807470728249,3
+large,recipe,92.77835333618336,3
+large,arm,0.4436039866186854,3
+large,recipe x arm,2.7588874357360904,3
+large,seed residual,4.0191552414617995,3

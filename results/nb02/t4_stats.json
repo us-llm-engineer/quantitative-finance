@@ -1,0 +1,2705 @@
+{
+  "n_boot": 2000,
+  "seed": 0,
+  "paired_bootstrap_sign": "learned minus classical (negative = learned better)",
+  "holm_family": "15 recipe x arm cells per profile",
+  "figures": {
+    "5.1": [
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.059726868892709395,
+        "ci_lo": 0.05823639215645571,
+        "ci_hi": 0.06121734562896308
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.05987919826184709,
+        "ci_lo": 0.05946429036527787,
+        "ci_hi": 0.0602941061584163
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.058928810634960714,
+        "ci_lo": 0.05737454861756945,
+        "ci_hi": 0.06048307265235198
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.06041239290063579,
+        "ci_lo": 0.05902447663960819,
+        "ci_hi": 0.06180030916166339
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.06047457907597222,
+        "ci_lo": 0.05970894579994645,
+        "ci_hi": 0.061240212351997995
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.06079146230717499,
+        "ci_lo": 0.05951283762245081,
+        "ci_hi": 0.06207008699189917
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.060819829101363805,
+        "ci_lo": 0.05922065346227325,
+        "ci_hi": 0.06241900474045436
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.06102161419515808,
+        "ci_lo": 0.0608325330121989,
+        "ci_hi": 0.061210695378117255
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.06080937159558136,
+        "ci_lo": 0.05736088671945085,
+        "ci_hi": 0.06425785647171188
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.059518701303750254,
+        "ci_lo": 0.05716802679520969,
+        "ci_hi": 0.06186937581229082
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.05928904702266055,
+        "ci_lo": 0.05856690049816861,
+        "ci_hi": 0.060011193547152494
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.05867667062953113,
+        "ci_lo": 0.05806355601342893,
+        "ci_hi": 0.05928978524563333
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.058671603457381316,
+        "ci_lo": 0.058100861578739414,
+        "ci_hi": 0.05924234533602322
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.0587701025046408,
+        "ci_lo": 0.05851308365245805,
+        "ci_hi": 0.059027121356823545
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.05851959522937733,
+        "ci_lo": 0.057987246782276916,
+        "ci_hi": 0.059051943676477744
+      },
+      {
+        "profile": "small",
+        "recipe": "classical",
+        "arm": "bs_delta",
+        "mean": 0.06195471583965028,
+        "ci_lo": 0.06195471583965028,
+        "ci_hi": 0.06195471583965028
+      },
+      {
+        "profile": "small",
+        "recipe": "classical",
+        "arm": "leland",
+        "mean": 0.061438174117338706,
+        "ci_lo": 0.061438174117338706,
+        "ci_hi": 0.061438174117338706
+      },
+      {
+        "profile": "small",
+        "recipe": "classical",
+        "arm": "ww_band",
+        "mean": 0.06358153250065109,
+        "ci_lo": 0.06358153250065109,
+        "ci_hi": 0.06358153250065109
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.05882299050688742,
+        "ci_lo": 0.057572880981124876,
+        "ci_hi": 0.06007310003264996
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.05887511195614933,
+        "ci_lo": 0.05882247107581319,
+        "ci_hi": 0.058927752836485464
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.05819336719314255,
+        "ci_lo": 0.058038969983361485,
+        "ci_hi": 0.05834776440292362
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.06018749476224183,
+        "ci_lo": 0.05875757709787932,
+        "ci_hi": 0.061617412426604345
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.0604125599140922,
+        "ci_lo": 0.05962780341332316,
+        "ci_hi": 0.061197316414861244
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.06049410406748452,
+        "ci_lo": 0.0598727906918315,
+        "ci_hi": 0.06111541744313754
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.058298394345988803,
+        "ci_lo": 0.05767838657103329,
+        "ci_hi": 0.05891840212094432
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.0580441545769572,
+        "ci_lo": 0.057868588733072664,
+        "ci_hi": 0.05821972042084173
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.058038063969463094,
+        "ci_lo": 0.057935689564251734,
+        "ci_hi": 0.058140438374674454
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.05803207621350883,
+        "ci_lo": 0.057891110298897354,
+        "ci_hi": 0.05817304212812031
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.05772347291931507,
+        "ci_lo": 0.05737349923759898,
+        "ci_hi": 0.05807344660103117
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.05800806090484061,
+        "ci_lo": 0.057684952442853495,
+        "ci_hi": 0.05833116936682773
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "mean": 0.05783751582354305,
+        "ci_lo": 0.05779070502015578,
+        "ci_hi": 0.05788432662693033
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "mean": 0.05757416011144715,
+        "ci_lo": 0.05721985052872908,
+        "ci_hi": 0.05792846969416522
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "mean": 0.05764999640981353,
+        "ci_lo": 0.057304068721442045,
+        "ci_hi": 0.05799592409818502
+      },
+      {
+        "profile": "large",
+        "recipe": "classical",
+        "arm": "bs_delta",
+        "mean": 0.06195471583965028,
+        "ci_lo": 0.06195471583965028,
+        "ci_hi": 0.06195471583965028
+      },
+      {
+        "profile": "large",
+        "recipe": "classical",
+        "arm": "leland",
+        "mean": 0.061438174117338706,
+        "ci_lo": 0.061438174117338706,
+        "ci_hi": 0.061438174117338706
+      },
+      {
+        "profile": "large",
+        "recipe": "classical",
+        "arm": "ww_band",
+        "mean": 0.06358153250065109,
+        "ci_lo": 0.06358153250065109,
+        "ci_hi": 0.06358153250065109
+      }
+    ],
+    "5.2": [
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.002227846944083759,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.002800070928906388,
+        "ci_hi_mean": -0.0016596700268797589,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.002075517574946078,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0026645166661279866,
+        "ci_hi_mean": -0.0015002388576045602,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003025905201832451,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.003543418275844311,
+        "ci_hi_mean": -0.002513344979130971,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0015423229361573771,
+        "p_raw": 0.0029985007496251873,
+        "ci_lo_mean": -0.0021605963150039265,
+        "ci_hi_mean": -0.0009413295517365014,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.001480136760820934,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.00210195415162791,
+        "ci_hi_mean": -0.0008824233789928191,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0011632535296181741,
+        "p_raw": 0.05697151424287856,
+        "ci_lo_mean": -0.0017872563284511336,
+        "ci_hi_mean": -0.0005294451689037124,
+        "p_holm": 0.17091454272863568,
+        "holm_reject": false
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.001134886735429358,
+        "p_raw": 0.17691154422788605,
+        "ci_lo_mean": -0.0017470817132542553,
+        "ci_hi_mean": -0.0005347954110552912,
+        "p_holm": 0.3538230884557721,
+        "holm_reject": false
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0009331016416350932,
+        "p_raw": 0.005997001499250375,
+        "ci_lo_mean": -0.001529711011548825,
+        "ci_hi_mean": -0.00034245132304108056,
+        "p_holm": 0.0239880059970015,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0011453442412118046,
+        "p_raw": 0.36681659170414793,
+        "ci_lo_mean": -0.0017677160473540399,
+        "ci_hi_mean": -0.0005312618585303353,
+        "p_holm": 0.36681659170414793,
+        "holm_reject": false
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0024360145330429017,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0029714365444456522,
+        "ci_hi_mean": -0.001913131644390529,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0026656688141326094,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.003195250738505264,
+        "ci_hi_mean": -0.002133752104081211,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003278045207262032,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0037744692952992958,
+        "ci_hi_mean": -0.002780077421354743,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0032831123794118517,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0037748486608266876,
+        "ci_hi_mean": -0.0028102643971331387,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003184613332152364,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.003719962179133046,
+        "ci_hi_mean": -0.0026528401928332932,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0034351206074158306,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.003896971752680834,
+        "ci_hi_mean": -0.00297082109355057,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0031317253299057387,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0036602876204376426,
+        "ci_hi_mean": -0.002613773348461839,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0030796038806438428,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.00363623009476189,
+        "ci_hi_mean": -0.0025285350838676166,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003761348643650605,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.00424809758597984,
+        "ci_hi_mean": -0.0032803576942222854,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0017672210745513343,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.002366701078570127,
+        "ci_hi_mean": -0.0011696405023336343,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0015421559227009538,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0021735644402603328,
+        "ci_hi_mean": -0.0009386556515470056,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0014606117693086336,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0020983113695556923,
+        "ci_hi_mean": -0.000826097095043706,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0036563214908043504,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004150450334946309,
+        "ci_hi_mean": -0.0031673034122524195,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003910561259835958,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004420976761324956,
+        "ci_hi_mean": -0.003401010879936319,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003916651867330069,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004386658241134136,
+        "ci_hi_mean": -0.0034459183261419386,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003922639623284335,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004395397136018921,
+        "ci_hi_mean": -0.003455857675739877,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.004231242917478087,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0047332043835893465,
+        "ci_hi_mean": -0.0037199357784042865,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.003946654931952553,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.0044280935638584176,
+        "ci_hi_mean": -0.003474668761187539,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "delta_cvar95": -0.004117200013250108,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004589023826457558,
+        "ci_hi_mean": -0.0036599933980964137,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "delta_cvar95": -0.004380555725346011,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004885149126841378,
+        "ci_hi_mean": -0.0038516835821171672,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "delta_cvar95": -0.0043047194269796194,
+        "p_raw": 0.0009995002498750624,
+        "ci_lo_mean": -0.004743760508423051,
+        "ci_hi_mean": -0.0038586347178245542,
+        "p_holm": 0.014992503748125937,
+        "holm_reject": true
+      }
+    ],
+    "5.3": {
+      "n_rows": 1192,
+      "csv": "figures/fig-5.3.csv"
+    },
+    "5.4": [
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.0580527364835143,
+        "gpu_seconds": 394.6817724609375
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.05807559791952369,
+        "gpu_seconds": 557.20832421875
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.0579678942374885,
+        "gpu_seconds": 437.2002119140625
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.05783637419342992,
+        "gpu_seconds": 446.000033203125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.05776845255121586,
+        "gpu_seconds": 352.4573792724609
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.05756559201329944,
+        "gpu_seconds": 461.78797827148435
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.05794841852784155,
+        "gpu_seconds": 508.5361533203125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.057918508954346165,
+        "gpu_seconds": 379.69304882812503
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.058157255232334115,
+        "gpu_seconds": 255.14992578125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.058248875722289074,
+        "gpu_seconds": 174.87816137695313
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.05918777461722492,
+        "gpu_seconds": 204.93423266601562
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.059032321181148276,
+        "gpu_seconds": 206.40519970703124
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.05885076633468268,
+        "gpu_seconds": 180.97252685546874
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.0588894103951752,
+        "gpu_seconds": 206.87422045898438
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.058885159138590076,
+        "gpu_seconds": 207.83265893554687
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.05826215814799069,
+        "gpu_seconds": 115.48470739746094
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.0581766883395612,
+        "gpu_seconds": 234.21953369140624
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05814125509187577,
+        "gpu_seconds": 231.9688173828125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.05784462186321614,
+        "gpu_seconds": 728.8544462890625
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.05781615212932228,
+        "gpu_seconds": 726.3895307617188
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.057851773478090736,
+        "gpu_seconds": 727.3097719726562
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.057591354984790066,
+        "gpu_seconds": 716.6453579101562
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.057707411985844344,
+        "gpu_seconds": 721.3904658203126
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.05742371336370704,
+        "gpu_seconds": 722.5657578125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.0578036459609866,
+        "gpu_seconds": 813.2387583007812
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.057614229090511775,
+        "gpu_seconds": 819.6344643554687
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05753211417794225,
+        "gpu_seconds": 820.5111733398437
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.06027885778248309,
+        "gpu_seconds": 75.31383203125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.060711968671530475,
+        "gpu_seconds": 122.09073229980469
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.05957165783271192,
+        "gpu_seconds": 95.09328143310547
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.06015877872332929,
+        "gpu_seconds": 77.30238842773437
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.06076637244597076,
+        "gpu_seconds": 79.60344107055664
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.06031252857297657,
+        "gpu_seconds": 79.37086550903321
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.06072875240072606,
+        "gpu_seconds": 83.58910238647461
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.06023096742480992,
+        "gpu_seconds": 146.42636779785155
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.06052259237691759,
+        "gpu_seconds": 144.74461236572265
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.058255280259996635,
+        "gpu_seconds": 419.61581591796875
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.0585667294487357,
+        "gpu_seconds": 416.72772900390623
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.058073173329234104,
+        "gpu_seconds": 421.0174091796875
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.0580323104560375,
+        "gpu_seconds": 420.6035944824219
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.0581200030967593,
+        "gpu_seconds": 418.3484792480469
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.05798015017807481,
+        "gpu_seconds": 419.4462258300781
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.05807378448173402,
+        "gpu_seconds": 105.40188330078125
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.05804743238165973,
+        "gpu_seconds": 568.7149169921875
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05799297504499554,
+        "gpu_seconds": 575.1374760742187
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.05943674469739198,
+        "gpu_seconds": 96.87877783203125
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.060503287840634565,
+        "gpu_seconds": 52.566055908203126
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.058616071373224235,
+        "gpu_seconds": 101.14545532226562
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.05896825202926991,
+        "gpu_seconds": 119.44697558593751
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.059535037856549004,
+        "gpu_seconds": 106.88280944824218
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.05936385118216274,
+        "gpu_seconds": 100.46834289550782
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.05843390756845472,
+        "gpu_seconds": 131.4982530517578
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.05892734121531246,
+        "gpu_seconds": 133.379423828125
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.058668763104826195,
+        "gpu_seconds": 132.65351916503906
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.0590409850180149,
+        "gpu_seconds": 37.77145571899414
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.059985137119889245,
+        "gpu_seconds": 34.352297424316404
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.060154484540224054,
+        "gpu_seconds": 25.100302307128906
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.059780333731323465,
+        "gpu_seconds": 34.462460510253905
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.059785222005099045,
+        "gpu_seconds": 34.01273907470703
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.06007203904911874,
+        "gpu_seconds": 34.32964999389648
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.05868610873445867,
+        "gpu_seconds": 41.49540133666992
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.05963947527110575,
+        "gpu_seconds": 40.631425262451174
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05846084789931772,
+        "gpu_seconds": 50.96351123046875
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.05850502470135687,
+        "gpu_seconds": 285.8160515136719
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.05893371056392787,
+        "gpu_seconds": 542.9222863769531
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.05857607510685919,
+        "gpu_seconds": 541.279251953125
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.058735790282487856,
+        "gpu_seconds": 539.7924670410156
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.05868815359473226,
+        "gpu_seconds": 538.47854296875
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.058886363636702285,
+        "gpu_seconds": 541.832294921875
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.058633173368871194,
+        "gpu_seconds": 327.7527448730469
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.05827241418510674,
+        "gpu_seconds": 579.2955583496093
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05865319813415407,
+        "gpu_seconds": 657.26284375
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.0600995267704129,
+        "gpu_seconds": 13.132501342773438
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.06105744095519185,
+        "gpu_seconds": 13.204566261291504
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.0600802109763026,
+        "gpu_seconds": 13.368752243041993
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.060121122632175665,
+        "gpu_seconds": 12.771984001159668
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.06068728109449147,
+        "gpu_seconds": 12.607839851379394
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.06061533350124953,
+        "gpu_seconds": 13.423670486450195
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.0613355494737625,
+        "gpu_seconds": 18.38836247253418
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.06072656388953326,
+        "gpu_seconds": 18.554100616455077
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.0603122735582292,
+        "gpu_seconds": 17.124560974121096
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 0,
+        "cvar95": 0.06031890235841273,
+        "gpu_seconds": 108.44821862792969
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 1,
+        "cvar95": 0.06154592318460344,
+        "gpu_seconds": 93.24969519042969
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 2,
+        "cvar95": 0.06059466176107525,
+        "gpu_seconds": 94.18658630371094
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 0,
+        "cvar95": 0.06094426310434936,
+        "gpu_seconds": 94.40872290039063
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 1,
+        "cvar95": 0.061096430625766494,
+        "gpu_seconds": 93.16354711914063
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 2,
+        "cvar95": 0.061024148855358354,
+        "gpu_seconds": 94.37050561523438
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 0,
+        "cvar95": 0.060705424863845094,
+        "gpu_seconds": 113.72399645996094
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 1,
+        "cvar95": 0.06224662508815526,
+        "gpu_seconds": 114.055908203125
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 2,
+        "cvar95": 0.05947606483474373,
+        "gpu_seconds": 139.9879741821289
+      }
+    ],
+    "5.5": {
+      "n_rows": 832,
+      "csv": "figures/fig-5.5.csv"
+    },
+    "5.6": {
+      "n_rows": 1192,
+      "csv": "figures/fig-5.6.csv"
+    },
+    "5.7": {
+      "n_rows": 2384,
+      "csv": "figures/fig-5.7.csv"
+    },
+    "5.8": {
+      "n_rows": 7680,
+      "csv": "figures/fig-5.8.csv"
+    },
+    "5.9": {
+      "n_rows": 1575,
+      "csv": "figures/fig-5.9.csv"
+    },
+    "5.10": [
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.059726868892709395,
+        "cvar95_ci": 0.0014904767362536894
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05882299050688742,
+        "cvar95_ci": 0.0012501095257625423
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05987919826184709,
+        "cvar95_ci": 0.000414907896569215
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05887511195614933,
+        "cvar95_ci": 5.2640880336134276e-05
+      },
+      {
+        "profile": "small",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.058928810634960714,
+        "cvar95_ci": 0.0015542620173912619
+      },
+      {
+        "profile": "large",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05819336719314255,
+        "cvar95_ci": 0.00015439720978106504
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06041239290063579,
+        "cvar95_ci": 0.0013879162610275963
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06018749476224183,
+        "cvar95_ci": 0.001429917664362512
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06047457907597222,
+        "cvar95_ci": 0.0007656332760257714
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.0604125599140922,
+        "cvar95_ci": 0.0007847565007690394
+      },
+      {
+        "profile": "small",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06079146230717499,
+        "cvar95_ci": 0.001278624684724176
+      },
+      {
+        "profile": "large",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06049410406748452,
+        "cvar95_ci": 0.0006213133756530231
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.060819829101363805,
+        "cvar95_ci": 0.0015991756390905507
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.058298394345988803,
+        "cvar95_ci": 0.0006200077749555122
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06102161419515808,
+        "cvar95_ci": 0.0001890811829591789
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.0580441545769572,
+        "cvar95_ci": 0.00017556584388453433
+      },
+      {
+        "profile": "small",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.06080937159558136,
+        "cvar95_ci": 0.0034484848761305105
+      },
+      {
+        "profile": "large",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.058038063969463094,
+        "cvar95_ci": 0.00010237440521135669
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.059518701303750254,
+        "cvar95_ci": 0.0023506745085405665
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05803207621350883,
+        "cvar95_ci": 0.00014096591461147526
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05928904702266055,
+        "cvar95_ci": 0.0007221465244919451
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05772347291931507,
+        "cvar95_ci": 0.00034997368171609764
+      },
+      {
+        "profile": "small",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05867667062953113,
+        "cvar95_ci": 0.0006131146161022019
+      },
+      {
+        "profile": "large",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05800806090484061,
+        "cvar95_ci": 0.00032310846198711643
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.058671603457381316,
+        "cvar95_ci": 0.0005707418786418997
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05783751582354305,
+        "cvar95_ci": 4.681080338727178e-05
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.0587701025046408,
+        "cvar95_ci": 0.0002570188521827466
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05757416011144715,
+        "cvar95_ci": 0.0003543095827180714
+      },
+      {
+        "profile": "small",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05851959522937733,
+        "cvar95_ci": 0.0005323484471004165
+      },
+      {
+        "profile": "large",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "n_seeds": 3,
+        "cvar95_mean": 0.05764999640981353,
+        "cvar95_ci": 0.0003459276883714846
+      }
+    ],
+    "5.11": [
+      {
+        "profile": "small",
+        "component": "recipe",
+        "variance_percent": 71.00722949671892,
+        "n_seeds": 3
+      },
+      {
+        "profile": "small",
+        "component": "arm",
+        "variance_percent": 2.237524103616927,
+        "n_seeds": 3
+      },
+      {
+        "profile": "small",
+        "component": "recipe x arm",
+        "variance_percent": 4.727171692381911,
+        "n_seeds": 3
+      },
+      {
+        "profile": "small",
+        "component": "seed residual",
+        "variance_percent": 22.02807470728249,
+        "n_seeds": 3
+      },
+      {
+        "profile": "large",
+        "component": "recipe",
+        "variance_percent": 92.77835333618336,
+        "n_seeds": 3
+      },
+      {
+        "profile": "large",
+        "component": "arm",
+        "variance_percent": 0.4436039866186854,
+        "n_seeds": 3
+      },
+      {
+        "profile": "large",
+        "component": "recipe x arm",
+        "variance_percent": 2.7588874357360904,
+        "n_seeds": 3
+      },
+      {
+        "profile": "large",
+        "component": "seed residual",
+        "variance_percent": 4.0191552414617995,
+        "n_seeds": 3
+      }
+    ],
+    "5.12": {
+      "n_rows": 554,
+      "csv": "figures/fig-5.12.csv"
+    },
+    "5.13": {
+      "n_rows": 525,
+      "csv": "figures/fig-5.13.csv"
+    },
+    "5.14": [
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.4539391322776676,
+        "cvar95": 0.0580527364835143
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.4485255293682218,
+        "cvar95": 0.05807559791952369
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.447287712259218,
+        "cvar95": 0.0579678942374885
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.3605213702695442,
+        "cvar95": 0.05783637419342992
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.3654839154772462,
+        "cvar95": 0.05776845255121586
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3077722189612686,
+        "cvar95": 0.05756559201329944
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.424153114197403,
+        "cvar95": 0.05794841852784155
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.4141956954808905,
+        "cvar95": 0.057918508954346165
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.4259799984844403,
+        "cvar95": 0.058157255232334115
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.4219949356462807,
+        "cvar95": 0.058248875722289074
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.4344336144091563,
+        "cvar95": 0.05918777461722492
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4568191001065074,
+        "cvar95": 0.059032321181148276
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.3244155265074222,
+        "cvar95": 0.05885076633468268
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.3263301246199757,
+        "cvar95": 0.0588894103951752
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3464545144893227,
+        "cvar95": 0.058885159138590076
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.417899675797671,
+        "cvar95": 0.05826215814799069
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.4090580848809333,
+        "cvar95": 0.0581766883395612
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.438294523234852,
+        "cvar95": 0.05814125509187577
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.4185270821016283,
+        "cvar95": 0.05784462186321614
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.4323451951321213,
+        "cvar95": 0.05781615212932228
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4145205626755954,
+        "cvar95": 0.057851773478090736
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.349992745632492,
+        "cvar95": 0.057591354984790066
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.3740477478779853,
+        "cvar95": 0.057707411985844344
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3404565063335,
+        "cvar95": 0.05742371336370704
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.422993170147389,
+        "cvar95": 0.0578036459609866
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.423372564869374,
+        "cvar95": 0.057614229090511775
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.42124586808905,
+        "cvar95": 0.05753211417794225
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.4379761162456126,
+        "cvar95": 0.06027885778248309
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.5078346109501553,
+        "cvar95": 0.060711968671530475
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4692101268354802,
+        "cvar95": 0.05957165783271192
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.272202516376227,
+        "cvar95": 0.06015877872332929
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.232722618751973,
+        "cvar95": 0.06076637244597076
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3249342915967106,
+        "cvar95": 0.06031252857297657
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.3872966975789516,
+        "cvar95": 0.06072875240072606
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.448753390544653,
+        "cvar95": 0.06023096742480992
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.466662232404202,
+        "cvar95": 0.06052259237691759
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.394404751030728,
+        "cvar95": 0.058255280259996635
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.4216471150919796,
+        "cvar95": 0.0585667294487357
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.425686398477107,
+        "cvar95": 0.058073173329234104
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.3579908878486604,
+        "cvar95": 0.0580323104560375
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.368625435670838,
+        "cvar95": 0.0581200030967593
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3934870824258776,
+        "cvar95": 0.05798015017807481
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.381397881998122,
+        "cvar95": 0.05807378448173402
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.4632006705865264,
+        "cvar95": 0.05804743238165973
+      },
+      {
+        "profile": "large",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.4484258962545544,
+        "cvar95": 0.05799297504499554
+      },
+      {
+        "profile": "large",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "bs_delta",
+        "seed": "",
+        "turnover": 3.127806204769027,
+        "cvar95": 0.06195471583965028
+      },
+      {
+        "profile": "large",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "leland",
+        "seed": "",
+        "turnover": 3.097202014049411,
+        "cvar95": 0.061438174117338706
+      },
+      {
+        "profile": "large",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "ww_band",
+        "seed": "",
+        "turnover": 1.5186794462767859,
+        "cvar95": 0.06358153250065109
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.599899121215567,
+        "cvar95": 0.05943674469739198
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.6277573263233527,
+        "cvar95": 0.060503287840634565
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4221380470786245,
+        "cvar95": 0.058616071373224235
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.443057120145112,
+        "cvar95": 0.05896825202926991
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.485459010683,
+        "cvar95": 0.059535037856549004
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.342808510439843,
+        "cvar95": 0.05936385118216274
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.5233965947017074,
+        "cvar95": 0.05843390756845472
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.5219226040348413,
+        "cvar95": 0.05892734121531246
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-DH",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.3770128020346166,
+        "cvar95": 0.058668763104826195
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.3710377762738615,
+        "cvar95": 0.0590409850180149
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.4843344804532825,
+        "cvar95": 0.059985137119889245
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.323548376938887,
+        "cvar95": 0.060154484540224054
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.428721215424687,
+        "cvar95": 0.059780333731323465
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.3052188590597362,
+        "cvar95": 0.059785222005099045
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.325940100489557,
+        "cvar95": 0.06007203904911874
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.465249324437976,
+        "cvar95": 0.05868610873445867
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.466227465277538,
+        "cvar95": 0.05963947527110575
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-GPU",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.404676772418618,
+        "cvar95": 0.05846084789931772
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.553947307007015,
+        "cvar95": 0.05850502470135687
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.5891830207219346,
+        "cvar95": 0.05893371056392787
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4282066099472344,
+        "cvar95": 0.05857607510685919
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.473670919611305,
+        "cvar95": 0.058735790282487856
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.387314137492329,
+        "cvar95": 0.05868815359473226
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.2842739804916086,
+        "cvar95": 0.058886363636702285
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.563382028565556,
+        "cvar95": 0.058633173368871194
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.5169143151260913,
+        "cvar95": 0.05827241418510674
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-HOR",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.494729383506626,
+        "cvar95": 0.05865319813415407
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.392598391519487,
+        "cvar95": 0.0600995267704129
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.435911446129158,
+        "cvar95": 0.06105744095519185
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.4898737300027163,
+        "cvar95": 0.0600802109763026
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.2966538049951195,
+        "cvar95": 0.060121122632175665
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.2099344699535517,
+        "cvar95": 0.06068728109449147
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.3618902492981406,
+        "cvar95": 0.06061533350124953
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.4831964220169933,
+        "cvar95": 0.0613355494737625
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.4897875173203645,
+        "cvar95": 0.06072656388953326
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-NTBN",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.4371249435413627,
+        "cvar95": 0.0603122735582292
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 0,
+        "turnover": 2.425872193276882,
+        "cvar95": 0.06031890235841273
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 1,
+        "turnover": 2.853114439750463,
+        "cvar95": 0.06154592318460344
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "FFN",
+        "seed": 2,
+        "turnover": 2.577587355716154,
+        "cvar95": 0.06059466176107525
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 0,
+        "turnover": 2.5382356919512152,
+        "cvar95": 0.06094426310434936
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 1,
+        "turnover": 2.725716004725173,
+        "cvar95": 0.061096430625766494
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "GRU",
+        "seed": 2,
+        "turnover": 2.4231726010851564,
+        "cvar95": 0.061024148855358354
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 0,
+        "turnover": 2.378330115329474,
+        "cvar95": 0.060705424863845094
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 1,
+        "turnover": 2.7105309806875884,
+        "cvar95": 0.06224662508815526
+      },
+      {
+        "profile": "small",
+        "kind": "learned",
+        "recipe": "R-SIG",
+        "arm": "sig2",
+        "seed": 2,
+        "turnover": 2.4027314710862933,
+        "cvar95": 0.05947606483474373
+      },
+      {
+        "profile": "small",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "bs_delta",
+        "seed": "",
+        "turnover": 3.127806204769027,
+        "cvar95": 0.06195471583965028
+      },
+      {
+        "profile": "small",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "leland",
+        "seed": "",
+        "turnover": 3.097202014049411,
+        "cvar95": 0.061438174117338706
+      },
+      {
+        "profile": "small",
+        "kind": "classical",
+        "recipe": "classical",
+        "arm": "ww_band",
+        "seed": "",
+        "turnover": 1.5186794462767859,
+        "cvar95": 0.06358153250065109
+      }
+    ],
+    "5.15": {
+      "n_rows": 20000,
+      "csv": "figures/fig-5.15.csv"
+    },
+    "5.16": {
+      "n_rows": 2384,
+      "csv": "figures/fig-5.16.csv"
+    }
+  },
+  "findings": [
+    {
+      "falsifier": "learned_below_bs_delta",
+      "description": "At least one recipe x arm cell (large profile) is below bs_delta in CVaR95 after Holm; estimates are learned minus bs_delta, negative = learned better",
+      "is_true": true,
+      "numbers": {
+        "large": {
+          "n_cells": 15,
+          "n_cells_learned_below_after_holm": 15,
+          "best_cell": "R-HOR_GRU",
+          "best_cell_delta_cvar95": -0.004380555725346011,
+          "best_cell_p_raw": 0.0009995002498750624,
+          "best_cell_p_holm": 0.014992503748125937,
+          "bs_delta_cvar95": 0.06195471583965028
+        },
+        "small": {
+          "n_cells": 15,
+          "n_cells_learned_below_after_holm": 12,
+          "best_cell": "R-HOR_sig2",
+          "best_cell_delta_cvar95": -0.0034351206074158306,
+          "best_cell_p_raw": 0.0009995002498750624,
+          "best_cell_p_holm": 0.014992503748125937,
+          "bs_delta_cvar95": 0.06195471583965028
+        },
+        "best_unit_large": {
+          "unit": "R-HOR_GRU_2",
+          "learned_cvar95": 0.05742371336370704,
+          "delta_cvar95_vs_bs_delta": -0.004531002473086125,
+          "ci": [
+            -0.005027224158495675,
+            -0.003998595131188654
+          ],
+          "pvalue": 0.0009995002498750624
+        }
+      }
+    },
+    {
+      "falsifier": "large_better_than_small",
+      "description": "Large profile has lower CVaR95 than small (paired over 15 cells, t-test)",
+      "is_true": true,
+      "numbers": {
+        "large_mean_cvar95": 0.058546101578325,
+        "small_mean_cvar95": 0.05975398980751632,
+        "small_minus_large": 0.001207888229191316,
+        "relative_change_pct_of_small": 2.0214352766773382,
+        "n_cells_large_lower": 15,
+        "n_cells": 15,
+        "paired_t": 5.157749457146366,
+        "paired_p": 0.00014541233777910225
+      }
+    },
+    {
+      "falsifier": "batch_size_within_10x_of_B_simple",
+      "description": "median B_simple within [0.1, 10] x batch size for every recipe with a defined B_simple (below 0.1: batch wasteful; above 10: larger batch would help; R-NTBN has 1 step/epoch, undefined)",
+      "is_true": false,
+      "numbers": {
+        "R-GPU": {
+          "batch_size": 16384,
+          "median_B_simple": 1743806.7000803198,
+          "ratio_B_simple_over_batch": 106.4335144091992
+        },
+        "R-NTBN": {
+          "batch_size": 16384,
+          "median_B_simple": null,
+          "ratio_B_simple_over_batch": null
+        },
+        "R-SIG": {
+          "batch_size": 1024,
+          "median_B_simple": 218959.75097234937,
+          "ratio_B_simple_over_batch": 213.82788180893493
+        },
+        "R-DH": {
+          "batch_size": 8192,
+          "median_B_simple": 3060319.040915386,
+          "ratio_B_simple_over_batch": 373.57410167424143
+        },
+        "R-HOR": {
+          "batch_size": 8192,
+          "median_B_simple": 7166267.139188748,
+          "ratio_B_simple_over_batch": 874.7884691392514
+        }
+      }
+    },
+    {
+      "falsifier": "v_tracks_var95",
+      "description": "RU threshold v within 10% of probe VaR95 at the last epoch (median over 45 large units)",
+      "is_true": true,
+      "numbers": {
+        "median_final_relative_gap": 0.005090731205446871,
+        "max_final_relative_gap": 0.022428401182585635,
+        "mean_epoch_correlation": 0.6679299354836,
+        "n_units": 45
+      }
+    }
+  ]
+}
