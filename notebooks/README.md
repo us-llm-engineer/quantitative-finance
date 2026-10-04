@@ -1,27 +1,29 @@
-# Notebooks and training diagnostics
+# Notebook guide: theory and evidence
 
-## Notebook index
+## Reading order
 
-1. [Mathematical foundations](01_mathematical_foundations.ipynb) develops rough-volatility simulation, estimation, pricing, and risk conventions.
-2. [Synthetic playground](02_synthetic_playground.ipynb) studies learned hedges in simulated markets.
-3. [Real data](03_real_data.ipynb) calibrates inputs and replays policies on held-out market windows.
+1. `01_mathematical_foundations.ipynb` establishes the rough-volatility model, the Volterra-kernel viewpoint, pricing quantities, and tail-risk convention.
+2. `02_synthetic_playground.ipynb` is the completed L4 simulation study. It presents one result per cell so the inferential comparison, optimisation behavior, distributional evidence, and resource use can be reviewed independently.
+3. `03_real_data.ipynb` connects simulated training to a held-out historical S&P 500 replay under the same hedging-accounting convention.
 
-The main README presents outcome-level figures. This page retains the detailed diagnostic panels used to interpret the synthetic training study. Every figure below has its CSV data in `../figures/`.
+## Theory in brief
 
-## Optimization diagnostics
+Under rough Bergomi, the forward variance is driven by a Volterra process with Hurst parameter \(H < 1/2\). Smaller \(H\) produces rougher, less regular volatility paths. A hedge is assessed through its self-financing terminal hedging error, including proportional trading cost.
 
-<table><tr>
-<td width="25%"><img src="../figures/fig-5.5.png" alt="Gradient noise"><br><sub><b>Figure 5.5.</b> Gradient-noise proxy versus batch size; <code>fig-5.5.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.6.png" alt="CVaR threshold"><br><sub><b>Figure 5.6.</b> CVaR threshold against VaR95; <code>fig-5.6.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.7.png" alt="Policy distance"><br><sub><b>Figure 5.7.</b> Learned-policy distance from delta; <code>fig-5.7.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.8.png" alt="Loss survival"><br><sub><b>Figure 5.8.</b> Loss-survival evolution; <code>fig-5.8.csv</code>.</sub></td>
-</tr></table>
+For a loss variable \(L\), the study uses conditional value at risk at level \(\alpha\):
 
-## Distribution and infrastructure diagnostics
+\[
+\operatorname{CVaR}_{\alpha}(L) = \mathbb{E}[L \mid L \geq \operatorname{VaR}_{\alpha}(L)].
+\]
 
-<table><tr>
-<td width="25%"><img src="../figures/fig-5.9.png" alt="P and L quantiles"><br><sub><b>Figure 5.9.</b> P&amp;L quantiles through training; <code>fig-5.9.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.10.png" alt="Profile comparison"><br><sub><b>Figure 5.10.</b> Small/large profile comparison; <code>fig-5.10.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.11.png" alt="Variance attribution"><br><sub><b>Figure 5.11.</b> Recipe/model/seed variance shares; <code>fig-5.11.csv</code>.</sub></td>
-<td width="25%"><img src="../figures/fig-5.12.png" alt="L4 timeline"><br><sub><b>Figure 5.12.</b> L4 utilization timeline; <code>fig-5.12.csv</code>.</sub></td>
-</tr></table>
+Lower CVaR means a smaller average loss in the worst \(1-\alpha\) tail. The Rockafellar--Uryasev representation used during training is
+
+\[
+\min_v\left(v + \frac{1}{1-\alpha}\,\mathbb{E}[(L-v)_+]\right).
+\]
+
+The simulation notebook uses common test paths for paired comparisons against Black--Scholes delta. The historical notebook retains that idea where possible, but its overlapping realised windows require block-bootstrap uncertainty summaries and do not justify independent-window inference.
+
+## Evidence boundary
+
+Figures and their compact CSV source tables live in the executable notebooks. The repository deliberately excludes model checkpoints, raw market downloads, and workflow artifacts. Recreate source data with `scripts/fetch_data.py`, run the replay pipeline with `scripts/exp_nb03_hedging.py`, and use the versioned compact JSON files under `results/` to audit reported values.
