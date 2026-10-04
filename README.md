@@ -22,6 +22,71 @@ In the synthetic L4 study, 15 recipe × architecture cells are evaluated per pro
 
 These are conditional experimental and historical-replay results, not investment advice or a claim of future trading performance.
 
+## Visual results
+
+Every panel is generated from the CSV beside it in `figures/`; gallery copies in `figures/readme/` are padded per row so each pair renders at the same size (`scripts/make_readme_gallery.py`).
+
+### Mathematical foundations (Notebook 01)
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-1.0.png" width="100%" alt="Figure 1.0"><br><sub><b>Figure 1.0.</b> Simulated variance mean with a ±4 standard-error band. Data: <code>figures/fig-1.0.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-1.7.png" width="100%" alt="Figure 1.7"><br><sub><b>Figure 1.7.</b> Volterra variance power-law check. Data: <code>figures/fig-1.7.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-1.2.png" width="100%" alt="Figure 1.2"><br><sub><b>Figure 1.2.</b> Roughness recovery by series type: spot variance stays on the diagonal, smoothed proxies overstate H. Data: <code>figures/fig-1.2.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-1.6.png" width="100%" alt="Figure 1.6"><br><sub><b>Figure 1.6.</b> Rough-Bergomi variance and spot sample paths. Data: <code>figures/fig-1.6.csv</code>.</sub></td>
+</tr></table>
+
+### Synthetic L4 recipe study (Notebook 02)
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.1.png" width="100%" alt="Figure 5.1"><br><sub><b>Figure 5.1.</b> CVaR95 leaderboard: every large-profile cell beats all three classical hedges. Data: <code>figures/fig-5.1.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.3.png" width="100%" alt="Figure 5.3"><br><sub><b>Figure 5.3.</b> Validation CVaR95 learning curves per recipe. Data: <code>figures/fig-5.3.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.2.png" width="100%" alt="Figure 5.2"><br><sub><b>Figure 5.2.</b> Paired CVaR95 gaps to Black–Scholes delta with Holm-adjusted p-values. Data: <code>figures/fig-5.2.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.15.png" width="100%" alt="Figure 5.15"><br><sub><b>Figure 5.15.</b> Loss exceedance: better tail up to the 99.9% level, worse single worst path. Data: <code>figures/fig-5.15.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.4.png" width="100%" alt="Figure 5.4"><br><sub><b>Figure 5.4.</b> Compute–risk frontier: GPU-seconds against final CVaR95. Data: <code>figures/fig-5.4.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.14.png" width="100%" alt="Figure 5.14"><br><sub><b>Figure 5.14.</b> Tail risk against turnover, with the classical hedges as stars. Data: <code>figures/fig-5.14.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.5.png" width="100%" alt="Figure 5.5"><br><sub><b>Figure 5.5.</b> Gradient noise scale 100–900× the batch size: every recipe is batch-starved. Data: <code>figures/fig-5.5.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.6.png" width="100%" alt="Figure 5.6"><br><sub><b>Figure 5.6.</b> The learned CVaR threshold converges to the empirical VaR95. Data: <code>figures/fig-5.6.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.7.png" width="100%" alt="Figure 5.7"><br><sub><b>Figure 5.7.</b> Learned hedge ratios settle about 0.06 away from Black–Scholes delta. Data: <code>figures/fig-5.7.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.16.png" width="100%" alt="Figure 5.16"><br><sub><b>Figure 5.16.</b> Gradient norm and update-to-weight ratio during training. Data: <code>figures/fig-5.16.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.8.png" width="100%" alt="Figure 5.8"><br><sub><b>Figure 5.8.</b> Probe-loss survival curves at five training snapshots. Data: <code>figures/fig-5.8.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.9.png" width="100%" alt="Figure 5.9"><br><sub><b>Figure 5.9.</b> P&L quantile fan during training. Data: <code>figures/fig-5.9.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.10.png" width="100%" alt="Figure 5.10"><br><sub><b>Figure 5.10.</b> Small against large training profile: all 15 cells improve. Data: <code>figures/fig-5.10.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.13.png" width="100%" alt="Figure 5.13"><br><sub><b>Figure 5.13.</b> Share of the gradient carried by each layer. Data: <code>figures/fig-5.13.csv</code>.</sub></td>
+</tr></table>
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.11.png" width="100%" alt="Figure 5.11"><br><sub><b>Figure 5.11.</b> Variance attribution: recipe 92.8%, seed 4.0% in the large profile. Data: <code>figures/fig-5.11.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-5.12.png" width="100%" alt="Figure 5.12"><br><sub><b>Figure 5.12.</b> L4 utilisation, memory and power during the large-profile run. Data: <code>figures/fig-5.12.csv</code>.</sub></td>
+</tr></table>
+
+### Historical S&P 500 replay (Notebook 03)
+
+<table><tr>
+<td width="50%" valign="top"><img src="figures/readme/fig-4.5-l4-20261003-full-04-analysis.png" width="100%" alt="Figure 4.5"><br><sub><b>Figure 4.5.</b> Daily replay on 191 real monthly windows: learned hedgers trained on simulations do not beat delta. Data: <code>figures/fig-4.5-l4-20261003-full-04-analysis.csv</code>.</sub></td>
+<td width="50%" valign="top"><img src="figures/readme/fig-4.6-l4-20261003-full-04-analysis.png" width="100%" alt="Figure 4.6"><br><sub><b>Figure 4.6.</b> Intraday rehedging on 57 real five-day windows: frequency, turnover and the worst windows. Data: <code>figures/fig-4.6-l4-20261003-full-04-analysis.csv</code>.</sub></td>
+</tr></table>
+
 ## Reproduction
 
 Use Python 3.12 with NumPy, SciPy, pandas, matplotlib, and PyTorch. Obtain market inputs independently with:
